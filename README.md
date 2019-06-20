@@ -4,7 +4,7 @@
 
 build
 ```
-docker build -t python-scraping:latest
+docker build -t python-scraping:latest .
 ```
 
 /init/sh
