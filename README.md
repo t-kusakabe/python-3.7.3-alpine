@@ -9,7 +9,7 @@ docker build -t python-scraping:latest .
 
 /init/sh
 ```
-docker run --rm -it python-scraping:latest /bin/sh
+docker run --rm -it -v ${PWD}:/workdir python-scraping:latest /bin/sh
 ```
 
 install
